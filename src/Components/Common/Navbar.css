@@ -1,0 +1,123 @@
+.head {
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+    padding-right: 00px ;
+    color: black;
+}
+
+.logo h1 {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 900;
+    padding-left: 0px;
+    margin-left: -80px;
+}
+.logo span {
+    margin-left: -80px;
+    color: #fff;
+
+}
+
+.social {
+    margin-right: -80px;
+    color: white;
+    
+}
+
+
+.head .icon {
+    margin-left: 10px;
+    color: white;
+}
+
+
+
+header {
+    background-color: #ffffff;
+    margin: 0 20px;
+    border-radius: 15px;
+}
+header ul {
+    padding: 30px 20px;
+}
+
+header li {
+    margin-right: 40px;
+}
+
+header ul li a {
+    color: black;
+    font-weight: 500;
+    transition: 0.5s;
+
+}
+
+header ul li a:hover {
+    color : #1eb2a6;
+}
+
+.start {
+    background-color: #1eb2a6;
+    padding: 30px 15px;
+    color: #fff;
+    margin-left: 550px;
+}
+a {
+    text-decoration:none;
+}
+
+li {
+    letter-spacing: normal;
+    list-style-type: none;
+}
+
+button {
+    border: none;
+    background-color: #fff;
+    padding-right:30px;
+    border-radius: 15px;
+}
+.toggle {
+    padding-top: 0px;
+}
+
+@media screen and (max-width : 768px) {
+    .start {
+        clip-path: none;
+    }
+
+    header {
+    margin: 0;
+    background-color: teal;
+    position: relative;
+    }
+
+    header ul.flexSB {
+    display: none;
+    }
+
+    header ul li {
+        margin-bottom: 20px;
+    }
+
+    .toggle {
+    display:flex;
+    color: #fff;
+    font-size:  30px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    
+    }
+
+    .mobile-nav {
+        position:absolute ;
+        top: vh;
+        left: 0;
+        width: 100%;
+        background-color: #1eb2a6;
+    }
+
+}
+
+

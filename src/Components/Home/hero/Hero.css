@@ -1,0 +1,65 @@
+.hero {
+    background-color:teal;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    padding-top: 20%;
+    padding-right: 50px;
+    color: #fff;
+}
+.row {
+    margin-top: -20px;
+    margin-left: -50px;
+}
+.row h1 {
+    padding-bottom: 10px;
+}
+.forPic {
+    background-image: url("/Users/faeezahmed/Desktop/policy_image.png");
+    background-size:contain;
+    background-attachment:fixed;
+    position:absolute;
+    top: 390px;
+    left:650px;
+    z-index: 1;
+    width: 60%;
+    height: 110vh;
+    padding-top: 20%;
+    padding-right: 0px;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.moreContent {
+    font-family: avenir;
+    font-size: 100px;
+    font-weight: 500;
+    font-style:oblique;
+    color: black ;
+    margin-top: 230px;
+    width: 70%
+}
+.pol_tagline {
+    font-family: avenir;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+.row p {
+    font-family: avenir;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.Rating {
+    position: relative;
+    padding-top: 150px;
+    font-family: avenir;
+    font-weight: 500;
+}
+
